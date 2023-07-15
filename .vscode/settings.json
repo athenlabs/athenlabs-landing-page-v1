@@ -6,7 +6,9 @@
 		"preinstall",
 		"Sardinha",
 		"tailwindcss",
-		"Usehooks"
+		"Usehooks",
+    "clsx",
+    "heroicons"
 	],
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
