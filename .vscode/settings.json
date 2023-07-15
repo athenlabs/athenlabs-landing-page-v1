@@ -1,5 +1,11 @@
 {
-	"cSpell.words": ["athenlabs", "tailwindcss"],
+	"cSpell.words": [
+		"Athen",
+		"athenlabs",
+		"preinstall",
+		"tailwindcss",
+		"Usehooks"
+	],
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
