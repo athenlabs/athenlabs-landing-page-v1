@@ -1,0 +1,16 @@
+{
+	"cSpell.words": [
+		"Alicio",
+		"Athen",
+		"athenlabs",
+		"preinstall",
+		"Sardinha",
+		"tailwindcss",
+		"Usehooks"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}
