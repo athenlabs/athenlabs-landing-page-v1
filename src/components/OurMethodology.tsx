@@ -8,7 +8,9 @@ export const OurMethodology = () => (
 
 		<article className="z-10 flex max-w-6xl flex-col items-end justify-end gap-6 self-end text-right md:mr-12">
 			<h2 className="text-xl font-bold md:text-3xl xl:text-5xl">
-				Our work <br /> methodology
+				<a href="#our-methodology">
+					Our work <br /> methodology
+				</a>
 			</h2>
 
 			<div className="flex flex-col gap-4">

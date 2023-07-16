@@ -14,7 +14,7 @@ export const WeDo = () => {
 
 			<div className="z-10 flex w-full flex-col items-center justify-center gap-48 text-black dark:text-white xs:flex-row">
 				<h2 className="max-w-sm text-xl font-bold md:text-3xl xl:text-5xl">
-					What {app.title} could do for you:
+					<a href="#we-do">What {app.title} could do for you:</a>
 				</h2>
 
 				<ul className="flex flex-col gap-4">

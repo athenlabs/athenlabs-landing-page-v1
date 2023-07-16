@@ -6,7 +6,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/solid'
 export const Hero = () => (
 	<section className="relative grid min-h-screen place-items-center">
 		<div className="z-10 flex flex-col items-center justify-center">
-			<Logo className="h-auto w-[300px] fill-black dark:fill-white md:w-[600px] xl:w-[900px]" />
+			<Logo className="h-auto w-[320px] fill-black dark:fill-white md:w-[640px] xl:w-[960px]" />
 			<ChevronDownIcon className="h-12 w-12 animate-bounce text-black dark:text-white" />
 		</div>
 
