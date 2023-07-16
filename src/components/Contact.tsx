@@ -8,7 +8,7 @@ import clsx from 'clsx'
 export const Contact = () => (
 	<section className="relative grid place-items-center">
 		<div className="z-10 flex flex-col items-center justify-center gap-8 fill-black text-black dark:fill-white dark:text-white">
-			<h2 className="text-7xl font-bold">Fale com a gente!</h2>
+			<h2 className="text-7xl font-bold">How to contact us</h2>
 			<ul className="flex flex-col text-center">
 				{Object.entries(socials).map(([key, social], index) => (
 					<li

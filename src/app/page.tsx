@@ -1,7 +1,7 @@
 import { GoToTop } from '@/components/GoToTop'
 import { ToggleTheme } from '@/components/ToggleTheme'
 import { Hero } from '@/components/Hero'
-import { AboutUs } from '@/components/AboutUS'
+import { AboutUs } from '@/components/AboutUs'
 import { WeDo } from '@/components/WeDo'
 import { OurMethodology } from '@/components/OurMethodology'
 import { Contact } from '@/components/Contact'

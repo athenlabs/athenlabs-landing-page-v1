@@ -1,6 +1,5 @@
-import Image from 'next/image'
-import graphic4 from '@/assets/graphics/graphic-4.webp'
 import { randomUUID } from 'crypto'
+import { app } from '@/config/config'
 
 export const WeDo = () => {
 	const services = [
@@ -14,7 +13,7 @@ export const WeDo = () => {
 			{/* <Image src={graphic4} width={1000} alt="Graphic 4" className="z-0" /> */}
 
 			<div className="z-10 ml-12 flex w-full items-center justify-center gap-48 text-black dark:text-white">
-				<h2 className="max-w-sm text-7xl font-bold">O que a Athen faz por voce:</h2>
+				<h2 className="max-w-sm text-7xl font-bold">What {app.title} could do for you:</h2>
 
 				<ul className="flex flex-col gap-4">
 					{services.map((service) => (

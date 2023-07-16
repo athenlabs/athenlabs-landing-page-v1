@@ -1,5 +1,5 @@
 export const socials = {
-	site: 'wwww.athen.io',
-	email: 'tech@athen.com',
+	site: 'athenlabs.io',
+	email: 'hello@athenlabs.io',
 	instagram: '@athenlabs'
 }
