@@ -55,4 +55,4 @@ pnpm dev
 
 ## License
 
-This project is licensed under the MIT License. See [here](LICENSE.md).
+This project is licensed under the GPL-3 License. See [here](LICENSE.md).
