@@ -27,7 +27,11 @@ export const metadata: Metadata = {
 	creator: `${app.company} Team`,
 	publisher: 'Vercel',
 	robots: 'index, follow',
-	// icons: [{ rel: "icon", url: "https://example.com/icon.png" }, { rel: "apple-touch-icon", url: "https://example.com/apple-icon.png" }],
+	// icons: [
+	// 	{ rel: 'icon', url: 'favicon.ico' },
+	// 	{ rel: 'apple-touch-icon', url: 'favicon.ico' },
+	// 	{ rel: 'shortcut icon', url: 'favicon.ico' }
+	// ],
 	// manifest: '',
 	// openGraph: {
 	// 	type: 'website',
