@@ -1,5 +1,5 @@
 export const socials = {
-	site: 'athenlabs.io',
+	phone: '+55 91 986253389',
 	email: 'hello@athenlabs.io',
 	instagram: '@athenlabs'
 }

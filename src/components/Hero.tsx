@@ -4,7 +4,7 @@ import graphic2 from '@/assets/graphics/graphic-2.webp'
 import { ChevronDownIcon } from '@heroicons/react/24/solid'
 
 export const Hero = () => (
-	<section className="relative grid h-screen place-items-center">
+	<section className="relative grid place-items-center">
 		<div className="z-10 flex flex-col items-center justify-center">
 			<Logo className="h-auto w-[900px] fill-black dark:fill-white" />
 			<ChevronDownIcon className="h-12 w-12 animate-bounce text-black dark:text-white" />

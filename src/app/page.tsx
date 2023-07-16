@@ -8,21 +8,17 @@ import { Contact } from '@/components/Contact'
 
 export default function Home() {
 	return (
-		<>
-			<main className="flex min-h-screen w-screen flex-col gap-80 overflow-x-hidden bg-purple-300 dark:bg-black">
+		<main className="overflow-hidden bg-purple-300 dark:bg-black">
+			<div className="flex flex-col gap-80">
 				<Hero />
-
 				<AboutUs />
-
 				<WeDo />
-
 				<OurMethodology />
-
 				<Contact />
-			</main>
+			</div>
 
 			<GoToTop />
 			<ToggleTheme />
-		</>
+		</main>
 	)
 }

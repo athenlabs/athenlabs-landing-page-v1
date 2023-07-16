@@ -23,8 +23,8 @@ export const GoToTop = () => {
 	return (
 		<button
 			title="Scroll to top"
-			className={`hover:op100 hover-bg-hex-8883 z-100 fixed bottom-4 right-4 h-10 w-10 rounded-full transition duration-300 ${
-				scrollY >= 300 ? 'opacity-100' : '!opacity-0'
+			className={`hover:op100 hover-bg-hex-8883 z-100 fixed bottom-6 right-6 h-10 w-10 rounded-full transition duration-300 ${
+				scrollY > 0 ? 'opacity-100' : '!opacity-0'
 			}`}
 			onClick={goToPageTop}
 		>
