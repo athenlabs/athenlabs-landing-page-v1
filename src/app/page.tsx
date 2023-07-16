@@ -1,4 +1,5 @@
 import { GoToTop } from '@/components/GoToTop'
+import { ToggleTheme } from '@/components/ToggleTheme'
 import { Hero } from '@/components/Hero'
 import { AboutUs } from '@/components/AboutUS'
 import { WeDo } from '@/components/WeDo'
@@ -8,7 +9,7 @@ import { Contact } from '@/components/Contact'
 export default function Home() {
 	return (
 		<>
-			<main className="flex min-h-screen w-screen flex-col gap-80 overflow-x-hidden">
+			<main className="flex min-h-screen w-screen flex-col gap-80 overflow-x-hidden bg-purple-300 dark:bg-black">
 				<Hero />
 
 				<AboutUs />
@@ -21,6 +22,7 @@ export default function Home() {
 			</main>
 
 			<GoToTop />
+			<ToggleTheme />
 		</>
 	)
 }

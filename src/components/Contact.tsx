@@ -15,7 +15,7 @@ export const Contact = () => (
 						key={key}
 						className={clsx(
 							index === Object.entries(socials).length - 1 && 'border-b-2',
-							'border-t-2 px-6 py-2 text-2xl'
+							'border-t-2 border-black px-6 py-2 text-2xl dark:border-white'
 						)}
 					>
 						{social}
