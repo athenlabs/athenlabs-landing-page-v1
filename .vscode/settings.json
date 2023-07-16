@@ -3,10 +3,14 @@
 		"Alicio",
 		"Athen",
 		"athenlabs",
+		"clsx",
+		"gabrielscardoso",
+		"heroicons",
 		"preinstall",
 		"Sardinha",
 		"tailwindcss",
-		"Usehooks"
+		"Usehooks",
+		"webp"
 	],
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
