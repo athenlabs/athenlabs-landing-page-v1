@@ -23,12 +23,12 @@ export const GoToTop = () => {
 	return (
 		<button
 			title="Scroll to top"
-			className={`hover:op100 hover-bg-hex-8883 z-100 fixed bottom-6 right-6 h-10 w-10 rounded-full transition duration-300 ${
+			className={`hover-bg-hex-8883 z-100 fixed bottom-4 right-4 rounded-full transition duration-300 hover:opacity-100 md:bottom-4 md:right-4 xl:bottom-6 xl:right-6 ${
 				scrollY > 0 ? 'opacity-100' : '!opacity-0'
 			}`}
 			onClick={goToPageTop}
 		>
-			<ChevronUpIcon className="h-12 w-12 text-black dark:text-white" />
+			<ChevronUpIcon className="h-6 w-6 text-black dark:text-white md:h-8 md:w-8 xl:h-10 xl:w-10" />
 		</button>
 	)
 }

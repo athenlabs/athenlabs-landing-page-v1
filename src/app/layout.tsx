@@ -9,7 +9,7 @@ const gothic = Gothic_A1({
 })
 
 export const metadata: Metadata = {
-	title: app.company,
+	title: `${app.company} | IT Services and IT Consulting`,
 	description: `${app.company} is a software house specialised in the development of technological solutions aimed at customers or companies from the most diverse segments`,
 	applicationName: `${app.company} Website`,
 	authors: [

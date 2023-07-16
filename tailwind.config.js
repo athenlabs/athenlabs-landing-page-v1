@@ -14,6 +14,14 @@ module.exports = {
 				accent: '#333173',
 				black: '#222221'
 			}
+		},
+		screens: {
+			'xs': '480px',
+			'sm': '640px',
+			'md': '768px',
+			'lg': '1024px',
+			'xl': '1280px',
+			'2xl': '1536px',
 		}
 	},
 	plugins: []

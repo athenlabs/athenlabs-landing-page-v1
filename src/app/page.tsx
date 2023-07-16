@@ -8,8 +8,8 @@ import { Contact } from '@/components/Contact'
 
 export default function Home() {
 	return (
-		<main className="overflow-hidden bg-purple-300 dark:bg-black">
-			<div className="flex flex-col gap-80">
+		<main className="overflow-hidden bg-white dark:bg-black">
+			<div className="flex flex-col gap-24 md:gap-56 xl:gap-80">
 				<Hero />
 				<AboutUs />
 				<WeDo />

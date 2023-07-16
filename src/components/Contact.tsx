@@ -8,14 +8,14 @@ import clsx from 'clsx'
 export const Contact = () => (
 	<section className="relative grid place-items-center">
 		<div className="z-10 flex flex-col items-center justify-center gap-8 fill-black text-black dark:fill-white dark:text-white">
-			<h2 className="text-7xl font-bold">How to contact us</h2>
+			<h2 className="text-xl font-bold md:text-3xl xl:text-5xl">How to contact us</h2>
 			<ul className="flex flex-col text-center">
 				{Object.entries(socials).map(([key, social], index) => (
 					<li
 						key={key}
 						className={clsx(
 							index === Object.entries(socials).length - 1 && 'border-b-2',
-							'border-t-2 border-black px-6 py-2 text-2xl dark:border-white'
+							'border-t-2 border-black px-6 py-2 text-lg dark:border-white md:text-xl xl:text-2xl'
 						)}
 					>
 						{social}

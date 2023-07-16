@@ -3,9 +3,9 @@ import graphic5 from '@/assets/graphics/graphic-5.webp'
 
 export const AboutUs = () => (
 	<section className="relative flex items-center p-6 text-black dark:text-white">
-		<article className="ml-12 flex max-w-6xl flex-col gap-6">
-			<h2 className="text-7xl font-bold">About us</h2>
-			<p className="text-left text-2xl">
+		<article className="flex max-w-6xl flex-col gap-6 xl:ml-12">
+			<h2 className="text-xl font-bold md:text-3xl xl:text-5xl">About us</h2>
+			<p className="text-left text-lg md:text-xl xl:text-2xl">
 				Athen Labs is an organization dedicated to turning innovative ideas into high-performance
 				software products and technological solutions. We combine a passion for technology with the
 				expertise of our talented team to deliver exceptional software projects. We are committed to
